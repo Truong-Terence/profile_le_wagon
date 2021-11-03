@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  font-size: .9em;
+}
+
+h1, h2, h3 {
+  color: #f8c291;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #ff5100;
+  transition-duration: 400ms;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.card {
+  position: relative;
+  background-color: grey;
+  width: 40%;
+  margin: 3em auto;
+  border-radius: 15px;
+  text-align: right;
+
+  /* box-shadow: 5px 5px 5px black; */
+}
+.card-vital {
+  background-color: #01823B;
+  /* box-shadow: 5px 5px 5px #FFCC00; */
+  height: 13em;
+}
+
+#triangle_clippy {
+  position: absolute;
+  clip-path: polygon(0 0, 0% 100%, 26% 100%);
+  background-color: #FFCC00;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #01612c;
+}
+
+.card-network ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.network_logo:hover {
+  transform: rotate(360deg);
+  transition-duration: 400ms;
+}
+.card h1 {
+  color: #FFCC00;
+}
+.card h2 {
+  color: white;
+}
+.card-left {
+  margin: 0 auto;
+  width: 50%;
+}
+.card-right {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.btn {
+  position: relative;
+  top: 25%;
+  left: 5%;
+  background-color: #DEB34D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.btn:hover {
+  transition-duration: 300ms;
+  transform: scale(.9);
+}
+.btn-chip {
+  background-image: url("images/chip.png");
+  padding: 25px 26px;
+  background-size: cover;
+}
+
+#profil_img {
+  height: 8em;
+  width: 8em;
+  float: right;
+  margin: 1em 2em .5em 2em;
+  box-shadow: 0 0 2em white;
+  border-radius: 5px;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
